@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: voxora
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/voxora_backend?createDatabaseIfNotExist=true
+    username: root
+    password: 12345
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+    show-sql: true
+
+    properties:
+      hibernate:
+        format_sql: true
